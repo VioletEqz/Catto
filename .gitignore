@@ -131,4 +131,3 @@ dmypy.json
 # Utilities
 CMD.bat
 yolov5s.pt
-data/
