@@ -35,7 +35,7 @@ Using a GPU is not required but is highly recommended.
 
   
 
-Start by cloning **YOLOv5** and installing the requirements.\
+Start by cloning **YOLOv5** and installing the requirements.
 
 ```
 pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
@@ -43,17 +43,17 @@ pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requi
 
   
 
-Get the **YoloV5s model** from here and put it in the same directory. \
+Get the **YoloV5s model** from here and put it in the same directory.
 
 ```
 https://github.com/ultralytics/yolov5/releases
 ```
 
-*(Any model works, but we recommend using YoloV5s)*\
+*(Any model works, but we recommend using YoloV5s)*
 
   
 
-You can get the dataset we labelled here manually, or just let the code do it automatically.\
+You can get the dataset we labelled here manually, or just let the code do it automatically.
 
 ```
 https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
