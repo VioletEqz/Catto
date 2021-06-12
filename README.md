@@ -61,7 +61,7 @@ https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
 
   
 
-Then run the following to start training.\
+Then run the following to start training.
 
 ```
 #python train.py --img 320 --batch 15 --epochs 32 --data catset.yaml --worker 0 --weights yolov5s.pt
@@ -87,7 +87,7 @@ freeze =  ['model.%s.'  % x for x in  range(10)]
 
 ```
 
-Detect line:
+Test line:
 
 ```
 
