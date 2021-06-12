@@ -132,5 +132,10 @@ dmypy.json
 CMD.bat
 yolov5s.pt
 
-#
+# Random stuff
 /training_data
+/docs
+/catset
+/dogset
+/runs
+/weight
