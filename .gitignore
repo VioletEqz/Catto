@@ -131,6 +131,7 @@ dmypy.json
 # Utilities
 CMD.bat
 yolov5s.pt
+catto.pt
 
 # Random stuff
 /training_data
