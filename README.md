@@ -64,7 +64,7 @@ https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
 Then run the following to start training.
 
 ```py
-#python train.py --img 320 --batch 15 --epochs 32 --data catset.yaml --worker 0 --weights yolov5s.pt
+python train.py --img 320 --batch 15 --epochs 32 --data catset.yaml --worker 0 --weights yolov5s.pt
 ```
 
 ## Catto Model
