@@ -37,7 +37,7 @@ Using a GPU is not required but is highly recommended.
 
 Start by cloning **YOLOv5** and installing the requirements.
 
-```
+```py
 pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
 ```
 
@@ -45,7 +45,7 @@ pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requi
 
 Get the **YoloV5s model** from here and put it in the same directory.
 
-```
+```py
 https://github.com/ultralytics/yolov5/releases
 ```
 
@@ -55,7 +55,7 @@ https://github.com/ultralytics/yolov5/releases
 
 You can get the dataset we labelled here manually, or just let the code do it automatically.
 
-```
+```py
 https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
 ```
 
@@ -63,7 +63,7 @@ https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
 
 Then run the following to start training.
 
-```
+```py
 #python train.py --img 320 --batch 15 --epochs 32 --data catset.yaml --worker 0 --weights yolov5s.pt
 ```
 
@@ -73,7 +73,7 @@ Using transfer learning with YoloV5s model in our dataset, we have trained our m
 
 Training line:
 
-```
+```py
 
 python train.py --img 320  --batch 32  --epochs 100  --data catset.yaml --worker 0  --weights yolov5s.pt
 
@@ -81,7 +81,7 @@ python train.py --img 320  --batch 32  --epochs 100  --data catset.yaml --worker
 
 Freezing line (replace in train.py):
 
-```
+```py
 
 freeze =  ['model.%s.'  % x for x in  range(10)]
 
@@ -89,7 +89,7 @@ freeze =  ['model.%s.'  % x for x in  range(10)]
 
 Test line:
 
-```
+```py
 
 #Using Yolov5s model to test
 
