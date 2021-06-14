@@ -3,7 +3,7 @@
 train: catset/images  # 128 images
 val: catset/images # 128 images
 
-download: https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
+download: https://github.com/VioletEqz/Catto/releases/download/dataset_v2/catset_v2.zip
 
 # number of classes
 nc: 1
