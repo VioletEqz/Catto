@@ -45,7 +45,7 @@ pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requi
 
 Get the **YoloV5s model** from here and put it in the same directory.
 
-```py
+```
 https://github.com/ultralytics/yolov5/releases
 ```
 
@@ -55,7 +55,7 @@ https://github.com/ultralytics/yolov5/releases
 
 You can get the dataset we labelled here manually, or just let the code do it automatically.
 
-```py
+```
 https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
 ```
 
