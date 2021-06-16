@@ -1,7 +1,7 @@
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: catset/images  # 128 images
-val: catset/images # 128 images
+train: catset/images/train  # 128 images
+val: catset/images/val # 128 images
 
 download: https://github.com/VioletEqz/Catto/releases/download/dataset_v2.1/catset_v2.1.zip
 
