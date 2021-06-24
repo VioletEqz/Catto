@@ -3,7 +3,7 @@
 train: CocoCat/images/train  # 128 images
 val: CocoCat/images/val # 128 images
 
-download: https://github.com/VioletEqz/Catto/releases/download/dataset_v4/catset_V4_Augmented.zip
+download: https://github.com/VioletEqz/Catto/releases/download/CocoCat/CocoCat.zip
 
 # number of classes
 nc: 1
