@@ -1,102 +1,37 @@
 
-  
-
-# My little Catto can't be this cute !!!
-
-  
-
+# Catto
 Just a smol model to detect kawaii catto <3
+This repository contains mostly the hyperparameters and configurations which was tinkered to train a Catto model on YoloV5. We also included an modified version of `detect.py` to implements [image segmentation](https://arxiv.org/abs/1805.09512) before detection.
 
-  
+## Methodology
+### Data source
+Most of the data was crawled using [petfinder API](https://www.petfinder.com/developers/v2/docs/), which are grouped then by IDs. We filtered only cats with more than 2 images and labelled them by hand.
 
-## Requirements
+ID818   | ID5481 |ID
+------------|------------|----------
+||
 
-  
+We also crawled data from the COCO 2017 Dataset using their provided [API](https://cocodataset.org/#download), filtering only cat images. But since the label was in a different format, we had to convert them back to Yolo format.
+### YoloV5 architecture 
+The model's architecture details can be found here: [Link](https://docs.google.com/document/d/1hW2rTwayBT0Nyr-hxEWSqHnjyVp5n6dZHW2cMy9vjmE/edit)
+*(Note: as YoloV5 are still in-development, there might be some changes in the future involving the architecture. The document is only accurate as of the publish date)* 
+### Future improvement
+From what we observed, here are some factors that can be improved for better results:
+- **Data**: More data is always good for training the model, but we must also take note that the data used is of good quality and accurate.
+- **Model**: For our case, we chose YoloV5s as our base model to train on because speed and movability are of greater priority. Should one want better accuracy, deeper model is recommended.
+- **Hyperparameters**: While we have found a rather good hyperparameters on YoloV5s, there are still rooms for improvement, especially on future model or bigger model.
 
-**Python >= 3.8**
+## Usage
+### Training
+A detailed guide on training can be found here:
+[Guide](https://colab.research.google.com/drive/1vdv23_4YaU5YVBhJFYoMnGe_7fMaOyGo?usp=sharing)
 
-  
+### Inference
+To perform inference, it is recommended to use `detect.py` included in the YoloV5 repository. However, if that does not suite you, Pytorch Hub is a good alternative.
+[Guide](https://colab.research.google.com/drive/1YQD-P_Q62utkuD-blboejuqKrehXLKEG?usp=sharing)
 
-**Pytorch >= 1.8**
-
-  
-
-**YOLOv5**
-
-  
-
-Using a GPU is not required but is highly recommended.
-
-  
-
-*(Incase you use GPU, get CUDA 11.1 for maximum compatibility with Pytorch 1.8)*
-
-## How to train ?
-
-  
-
-Start by cloning **YOLOv5** and installing the requirements.
-
-```py
-pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
-```
-
-  
-
-Get the **YoloV5s model** from here and put it in the same directory.
-
-```
-https://github.com/ultralytics/yolov5/releases
-```
-
-*(Any model works, but we recommend using YoloV5s)*
-
-  
-
-You can get the dataset we labelled here manually, or just let the code do it automatically.
-
-```
-https://github.com/VioletEqz/Catto/releases/download/Dataset/catset.zip
-```
-
-  
-
-Then run the following to start training.
-
-```py
-python train.py --img 320 --batch 15 --epochs 32 --data catset.yaml --worker 0 --weights yolov5s.pt
-```
-
-## Catto Model
-Using transfer learning with YoloV5s model in our dataset, we have trained our model with the sole purpose of cat tracking. Both the model and the dataset can be found in the /release of the repository.
-## That's it for nowi owo
-
-Training line:
-
-```py
-
-python train.py --img 320  --batch 32  --epochs 100  --data catset.yaml --worker 0  --weights yolov5s.pt
-
-```
-
-Freezing line (replace in train.py):
-
-```py
-
-freeze =  ['model.%s.'  % x for x in  range(10)]
-
-```
-
-Test line:
-
-```py
-
-#Using Yolov5s model to test
-
-python detect.py --weights yolov5s.pt --img 640  --conf 0.25  --source catset/images
-
-#Using Catto model to test
-
-python detect.py --weights yolov5s_cat.pt --img 320  --source catset/images
-
-```
+## Pretrained models
+|          Model        | mAP_val| mAP_test| Download |
+|:---------------------:|:------:|:-------:|:--------:|
+|  Catto			    |        |         |          |
+| CocoCat			    |        |         |          |
