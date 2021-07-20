@@ -13,7 +13,7 @@ ID818   | ID5481 |ID
 
 We also crawled data from the COCO 2017 Dataset using their provided [API](https://cocodataset.org/#download), filtering only cat images. But since the label was in a different format, we had to convert them back to Yolo format.
 ### YoloV5 architecture 
-The model's architecture details can be found here: [Link](https://docs.google.com/document/d/1hW2rTwayBT0Nyr-hxEWSqHnjyVp5n6dZHW2cMy9vjmE/edit)
+The model's architecture details can be found here: [Link](https://docs.google.com/document/d/1hW2rTwayBT0Nyr-hxEWSqHnjyVp5n6dZHW2cMy9vjmE/edit)\
 *(Note: as YoloV5 are still in-development, there might be some changes in the future involving the architecture. The document is only accurate as of the publish date)* 
 ### Future improvement
 From what we observed, here are some factors that can be improved for better results:
