@@ -15,16 +15,16 @@ This repository contains mostly the hyperparameters and configurations which was
 
 Most of the data was crawled using [petfinder API](https://www.petfinder.com/developers/v2/docs/), which are grouped then by IDs. We filtered only cats with more than 2 images and labelled them by hand.
 
-ID     |  52332561  |  52419810  |	51939580
--------|------------|------------|----------
-Example|![52332561](./docs/52332561.png)|![52419810](./docs/52419810.png)|![51939580](./docs/51939580.png)
+ID     |  52332561  |  52419810  |	51939580|
+-------|------------|------------|----------|
+Example|![52332561](./docs/52332561.png)|![52419810](./docs/52419810.png)|![51939580](./docs/51939580.png)|
 
   
 
 We also crawled data from the COCO 2017 Dataset using their provided [API](https://cocodataset.org/#download), filtering only cat images. But since the label was in a different format, we had converted them back to Yolo format.
-|Example 1| Example 2 | Example 3
-|---------|-----------|-----------
-|![Example1](./docs/Example1.jpg)|![Example2](./docs/Example2.jpg)|![Example3](./docs/Example3.jpg)
+|Example 1| Example 2 | Example 3|
+|---------|-----------|-----------|
+|![Example1](./docs/Example1.jpg)|![Example2](./docs/Example2.jpg)|![Example3](./docs/Example3.jpg)|
 A total of 4114 cat images were extracted from COCO 2017 Dataset for training process.
 
 ### YoloV5 architecture
