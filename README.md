@@ -30,9 +30,7 @@ Most of the data was crawled using **[petfinder API](https://www.petfinder.com/d
   
 
 **ID** | 52332561 | 52419810 | 51939580|
-
 -------|------------|------------|----------|
-
 **Example**|![52332561](./docs/52332561.png)|![52419810](./docs/52419810.png)|![51939580](./docs/51939580.png)|
 
   
@@ -42,9 +40,7 @@ Most of the data was crawled using **[petfinder API](https://www.petfinder.com/d
 We also crawled data from the **COCO 2017 Dataset** using their provided [API](https://cocodataset.org/#download), filtering only cat images. But since the label was in a different format, we had converted them back to Yolo format.
 
 |**Example 1**| **Example 2** | **Example 3**|
-
 |---------|-----------|-----------|
-
 |![Example1](./docs/Example1.jpg)|![Example2](./docs/Example2.jpg)|![Example3](./docs/Example3.jpg)|
 
   
@@ -124,11 +120,8 @@ With more data, the result can definitely improve even further. One can further 
   
 
 | Model | mAP<sup>val<br>0.5:0.95| mAP<sup>val<br>0.5 | mAP<sup>test<br>0.5:0.95| mAP<sup>test<br>0.5| Download |
-
 |:---------------------:|:------:|:-------:|:--------:|:--------: |:------: |
-
 | **Catto** | 0.704 | 0.953 | 0.703 | 0.954 | [Link](https://github.com/VioletEqz/Catto/releases/download/1.0/Catto.pt) |
-
 | CocoCat | 0.677 | 0.922 | 0.674 | 0.931 | [Link](https://github.com/VioletEqz/Catto/releases/download/1.0/CocoCat.pt) |
 
 
