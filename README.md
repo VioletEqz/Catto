@@ -3,7 +3,7 @@
 
 # Catto
 
-**Just a smol model to detect kawaii catto <3**\
+**Just a smol model to detect kawaii catto <3**
 
 This repository contains mostly the hyperparameters and configurations which was tinkered to train a Catto model on YoloV5. We also included an modified version of `detect.py` to implements [image segmentation](https://arxiv.org/abs/1805.09512) before detection.
 
@@ -25,11 +25,11 @@ We also crawled data from the COCO 2017 Dataset using their provided [API](https
 |Example 1| Example 2 | Example 3
 |---------|-----------|-----------
 |![Example1](./docs/Example1.jpg)|![Example2](./docs/Example2.jpg)|![Example3](./docs/Example3.jpg)
-
+A total of 4114 cat images were extracted from COCO 2017 Dataset for training process.
 
 ### YoloV5 architecture
 
-The model's architecture details can be found here: [Doc](https://docs.google.com/document/d/1hW2rTwayBT0Nyr-hxEWSqHnjyVp5n6dZHW2cMy9vjmE/edit)\
+The model's architecture details can be found here: [Doc](https://docs.google.com/document/d/1hW2rTwayBT0Nyr-hxEWSqHnjyVp5n6dZHW2cMy9vjmE/edit)
 
 *(Note: as YoloV5 are still in-development, there might be some changes in the future involving the architecture. The document is only accurate as of the publish date)*
 
