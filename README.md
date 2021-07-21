@@ -25,6 +25,7 @@ We also crawled data from the COCO 2017 Dataset using their provided [API](https
 |Example 1| Example 2 | Example 3|
 |---------|-----------|-----------|
 |![Example1](./docs/Example1.jpg)|![Example2](./docs/Example2.jpg)|![Example3](./docs/Example3.jpg)|
+
 A total of 4114 cat images were extracted from COCO 2017 Dataset for training process.
 
 ### YoloV5 architecture
