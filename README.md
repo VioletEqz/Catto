@@ -13,8 +13,10 @@
 
 This repository contains mostly the hyperparameters and configurations which was tinkered to train a Catto model on YoloV5. We also included an modified version of `detect.py` to implements [image segmentation](https://arxiv.org/abs/1805.09512) before detection.
 
-  
+## Showcase
 
+[Catto deployed on Flask through ONNX platform](https://cattov1.herokuapp.com/)
+[Catto running parallelly with Cat face detection on Flask through ONNX platform](https://cattov2.herokuapp.com/)
   
 
 ## Methodology
