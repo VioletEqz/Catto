@@ -21,8 +21,7 @@ The model can be deployed on Flask, here we have deployed it on Heroku for showc
     <a align="left" href="https://github.com/VioletEqz/Catto" target="_blank">
     <img width="850" src="./docs/Flask2.png"></a>
   </p>
-  <br>
-<div>
+</div>
 You can try it out through one of the 2 following links:
 
 [Catto deployed on Flask through ONNX platform](https://cattov1.herokuapp.com/)  
