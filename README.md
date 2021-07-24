@@ -20,11 +20,6 @@ The model can be deployed on Flask, here we have deployed it on Heroku for showc
   <p>
     <a align="left" href="https://github.com/VioletEqz/Catto" target="_blank">
     <img width="850" src="./docs/Flask2.png"></a>
-    You can try it out through one of the 2 following links:
-
-[Catto deployed on Flask through ONNX platform](https://cattov1.herokuapp.com/)  
-
-[Catto running parallelly with Cat face detection on Flask through ONNX platform](https://cattov2.herokuapp.com/)
   </p>
 </div>
 You can try it out through one of the 2 following links:
