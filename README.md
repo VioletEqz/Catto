@@ -16,7 +16,6 @@ This repository contains mostly the hyperparameters and configurations which was
 ## Showcase
 
 The model can be deployed on Flask, here we have deployed it on Heroku for showcasing purpose:
-![Flask2](./docs/Flask2.png)
 <div align="center">
   <p>
     <a align="left" href="https://github.com/VioletEqz/Catto" target="_blank">
