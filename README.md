@@ -16,8 +16,9 @@ This repository contains mostly the hyperparameters and configurations which was
 ## Showcase
 
 The model can be deployed on Flask, here we have deployed it on Heroku for showcasing purpose:
-![Flask1](./docs/Flask1.png)
 ![Flask2](./docs/Flask2.png)
+
+You can try it out through one of the 2 following links:
 
 [Catto deployed on Flask through ONNX platform](https://cattov1.herokuapp.com/)  
 
